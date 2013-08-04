@@ -47,7 +47,7 @@ LOCAL_SRC_FILES := \
         ../utils/thread.c \
         ../utils/utils.c
 
-LOCAL_CFLAGS := -DANDROID -DWEBP_SWAP_16BIT_CSP
+LOCAL_CFLAGS := -fno-align-functions -DANDROID -DWEBP_SWAP_16BIT_CSP
 
 LOCAL_C_INCLUDES += \
         $(LOCAL_PATH) \
